@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Search Field for Location Name -->
+        <EditText
+            android:id="@+id/edit_text_search_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search location by name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <!-- Search Button -->
+        <Button
+            android:id="@+id/button_search_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <!-- Display Location Name -->
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <!-- Display Latitude -->
+        <TextView
+            android:id="@+id/text_view_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitude: "
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <!-- Display Longitude -->
+        <TextView
+            android:id="@+id/text_view_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitude: "
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

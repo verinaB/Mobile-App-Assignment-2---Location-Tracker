@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Location Tracker</string>
+    <string name="welcome_message">Welcome to Location Tracker!</string>
+    <string name="add_location">Add Location</string>
+    <string name="search_location">Search Location</string>
+    <string name="view_saved_locations">View Saved Locations</string>
+</resources>

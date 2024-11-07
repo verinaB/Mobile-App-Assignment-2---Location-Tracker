@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Location Name Input -->
+        <EditText
+            android:id="@+id/edit_text_location_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter location name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <!-- Latitude Input -->
+        <EditText
+            android:id="@+id/edit_text_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter latitude"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <!-- Longitude Input -->
+        <EditText
+            android:id="@+id/edit_text_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter longitude"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <!-- Save Location Button -->
+        <Button
+            android:id="@+id/button_save_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Location"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <!-- Update Location Button -->
+        <Button
+            android:id="@+id/button_update_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Location"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <!-- Delete Location Button -->
+        <Button
+            android:id="@+id/button_delete_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Location"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
